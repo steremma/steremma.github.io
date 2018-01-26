@@ -1,29 +1,85 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Jheronimus Academy of Data Science (JADS)
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Design and implementation of Data Science solutions for the Dutch industry.
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: September 2016
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Technical Designer in Training (PDEng) in Data Science
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-bar-chart
 
 - name:
-    detail: Company B
+    detail: Erasmus Mundus MSc Mathmods
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Two-year joint MSc on the theory, numerics and applications of Mathematical modeling in engineering.
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: December 2015
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: MSc Mathematical Models in Engineering
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-calculator
+
+- name:
+    detail: Procter and Gamble
+    i18n: company_b
+  desc:
+    detail: Intern in charge of documenting all the operations of the warehouse, to review, update and generate standard operating procedures (SOPs) that ensure a standardized, cohesive, end-to-end description of all tasks within the warehouse.
+    i18n: company_b_desc
+  date:
+    detail: September 2014
+    i18n: company_b_date
+  job:
+    detail: Supply Network Operations Intern
+    i18n: company_b_job
+  icon: fa-truck
+
+- name:
+    detail: Quad/Graphics
+    i18n: company_b
+  desc:
+    detail: Corporate Trainee program in Interactive Print Solutions (IPS). The IPS department aimed to add value to printed material by allowing mobile devices to interact with print through image recognition and augmented reality. The role was analogous to a project manager.
+    i18n: company_b_desc
+  date:
+    detail: January 2012
+    i18n: company_b_date
+  job:
+    detail: Interactive Print Representative
+    i18n: company_b_job
+  icon: fa-book
+
+- name:
+    detail: General Motors
+    i18n: company_b
+  desc:
+    detail: Supply Chain department analyst, responsible for the logistics of non-CKD parts of several models of automobiles in the production site of Bogota, Colombia.
+    i18n: company_b_desc
+  date:
+    detail: October 2011
+    i18n: company_b_date
+  job:
+    detail: Material Flow Engineer
+    i18n: company_b_job
+  icon: fa-car
+
+- name:
+    detail: Universtity of Andes, Bogota
+    i18n: company_b
+  desc:
+    detail: Double BSc degree in Industrial Engineering and Computer Engineering. Emphasis on operations research and software development.
+    i18n: company_b_desc
+  date:
+    detail: March 2011
+    i18n: company_b_date
+  job:
+    detail: BSc Industrial Engineer and BSc Computer Engineer
+    i18n: company_b_job
+  icon: fa-graduation-cap
