@@ -14,12 +14,11 @@
   img: /static/assets/img/landing/springerLink.png
   desc: Published by SpringerLink, this paper presents the development and the results of NOA, a web application intended to detect opinion tendencies, using sentiment analysis and NoSQL technology.
 
-
-#- name: Xomnia
-#  i18n: name
-#  url: https://youtu.be/ctxGy2k-wt4?list=PLkCF4jlemucm9t8CVbMfk4BkV5t4KkH9i
-#  img: /static/assets/img/landing/google.png
-#  desc: This is another project.
+- name: Xomnia Datathon: Create a Safety Monitor
+  i18n: name
+  url: https://youtu.be/ctxGy2k-wt4?list=PLkCF4jlemucm9t8CVbMfk4BkV5t4KkH9i
+  img: /static/assets/img/landing/google.png
+  desc: During this hackathon I led a team to create a tool to visualize crime in Chicago inspired on weather maps. The videoIn the linked video I give a three minute pitch, which secured us the second place.
 
 #- name: Python
 #  i18n: cpython
