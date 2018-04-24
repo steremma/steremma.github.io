@@ -18,7 +18,7 @@
   i18n: name
   url: https://youtu.be/ctxGy2k-wt4?list=PLkCF4jlemucm9t8CVbMfk4BkV5t4KkH9i
   img: /static/assets/img/landing/google.png
-  desc: During this hackathon I led a team to create a tool to visualize crime in Chicago inspired on weather maps. The videoIn the linked video I give a three minute pitch, which secured us the second place.
+  desc: During this hackathon I led a team to create a tool to visualize crime in Chicago inspired on weather maps. The videoIn the linked video I give a five minute pitch, which secured us the second place.
 
 #- name: Python
 #  i18n: cpython
