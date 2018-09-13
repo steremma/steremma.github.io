@@ -3,41 +3,25 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: A scalable Grid Computing framework for extensible phylogenetic profile construction
   i18n: name
-  repo: https://github.com/steremma/gridcg
   url: https://www.researchgate.net/publication/307585591_A_Scalable_Grid_Computing_Framework_for_Extensible_Phylogenetic_Profile_Construction
   img: /static/assets/img/landing/springerLink.png
   desc: Published by SpringerLink, this paper presents my design and implementation of a distributed framework that can exploit Grid infrastructure resources (EGI) to scale-up common genomics workflows. Achieved a 30x speed-up compared to serial implementations.
 
 - name: GPU accerelated Convolutional Neural Networks 
   i18n: name
-  repo: https://github.com/steremma/root
   url: https://gist.github.com/steremma/048549de16cc48610233c943ecf495b4
   img: /static/assets/img/landing/google.png
   desc: Designed and implemented a fully functional Convolutional Neural Network library in CUDA, allowing the timely processing of particle physics experimental data. My implementation consistently outperforms the previous CPU version by a factor of 3, as its performance and memory footprint is comparable to those of Keras.
 
 - name: Natural Language Processing
   i18n: name
-  repo: https://github.com/steremma/gensim
-  img: /static/assets/img/landing/python.png
+  repo: steremma/gensim
+  img: /static/assets/img/landing/gensim.png
   desc: I have contributed to one of the most popular Python open source packages in Topic Modeling called Gensim. My work includes adding features that made it into a subsequent release, fixing bugs, and improving the documentation of complex model implementations.
 
 - name: Robotics Simulation
   i18n: name
-  repo: https://github.com/steremma/stdr_simulator
-  url: http://stdr-simulator-ros-pkg.github.io/
+  repo: steremma/stdr_simulator
   img: /static/assets/img/landing/stdr.png
   desc: Integrated a new GUI into a robotics application written in C++ and implemented several design and performance optimizations. The project is currently distributed as an official ROS package.
-
-#- name: Python
-#  i18n: cpython
-#  gh_user: python
-#  repo: cpython
-#  img: /static/assets/img/landing/python.png
-#  desc: This project is other's project. I use another request to get repo's information.
-
-#- name: Google
-#  i18n: google
-#  url: https://google.com
-#  img: /static/assets/img/landing/google.png
-#  desc: This is another project.
 
