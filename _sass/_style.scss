@@ -1,3 +1,10 @@
+/* To center images */
+.center {
+    text-align: center;
+}
+
+img + em { display: block; text-align: center;}
+
 .landing-page .carousel-caption {
   h1, p {
     text-transform: uppercase;

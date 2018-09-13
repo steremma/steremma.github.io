@@ -1,5 +1,21 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+
+- name:
+    detail: Google Summer of Code
+    i18n: company_b
+  desc:
+    detail: GPU accerelated Convolutional Neural Network library in ROOT, the data processing framework developed and used at CERN. 
+    i18n: company_b_desc
+  date:
+    detail: May 2018 - September 2018
+    i18n: company_b_date
+  job:
+    # detail: 
+    i18n: company_b_job
+  icon: fa-calculator
+  
 - name:
     detail: Jheronimus Academy of Data Science (JADS)
     i18n: company_a
@@ -15,34 +31,6 @@
   icon: fa-bar-chart
 
 - name:
-    detail: Google Summer of Code
-    i18n: company_b
-  desc:
-    detail: GPU accerelated Convolutional Neural Network library in ROOT, the data processing framework developed and used at CERN. 
-    i18n: company_b_desc
-  date:
-    detail: May 2018 - September 2018
-    i18n: company_b_date
-  job:
-    # detail: 
-    i18n: company_b_job
-  icon: fa-calculator
-
-- name:
-    detail: Aristotle University of Thessaloniki, Greece
-    i18n: company_b
-  desc:
-    detail: Engineer's Diploma (BSc and MSc combined studies) in Electrical and Computer Engineering, with a specialization in software engineering and machine learning (then called pattern recognition). Graduated among the top 10% of graduates. My thesis on accerelating genomics workflows using distributed computing environments, was graded with 10/10 and published at the 12th International Conference on Artificial Intelligence Applications and Innovations (AIAI 2016).
-    i18n: company_b_desc
-  date:
-    detail: September 2010 - July 2016
-    i18n: company_b_date
-  job:
-    detail: Electrical and Computer Engineering student
-    i18n: company_b_job
-  icon: fa-calculator
-
-- name:
     detail: Veltio
     i18n: company_b
   desc:
@@ -55,5 +43,21 @@
   job:
     detail: Software Engineering Intern
     i18n: company_b_job
+  icon: fa-calculator
+  
+- name:
+    detail: Aristotle University of Thessaloniki, Greece
+    i18n: company_b
+  desc:
+    detail: Engineer's Diploma (BSc and MSc combined studies) in Electrical and Computer Engineering, with a specialization in software engineering and machine learning (then called pattern recognition). Graduated among the top 10% of graduates. My thesis on accerelating genomics workflows using distributed computing environments, was graded with 10/10 and published at the 12th International Conference on Artificial Intelligence Applications and Innovations (AIAI 2016).
+    i18n: company_b_desc
+  date:
+    detail: September 2010 - July 2016
+    i18n: company_b_date
+  job:
+    detail: Electrical and Computer Engineering student
+    i18n: company_b_job
   icon: fa-book
+
+
 
