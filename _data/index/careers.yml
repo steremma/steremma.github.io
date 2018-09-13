@@ -7,7 +7,7 @@
     detail: Design and implementation of Data Science solutions for the Dutch industry.
     i18n: company_a_desc
   date:
-    detail: September 2016
+    detail: January 2017 - January 2019
     i18n: company_a_date
   job:
     detail: Technical Designer in Training (PDEng) in Data Science
@@ -15,71 +15,45 @@
   icon: fa-bar-chart
 
 - name:
-    detail: Erasmus Mundus MSc Mathmods
+    detail: Google Summer of Code
     i18n: company_b
   desc:
-    detail: Two-year joint MSc on the theory, numerics and applications of Mathematical modeling in engineering.
+    detail: GPU accerelated Convolutional Neural Network library in ROOT, the data processing framework developed and used at CERN. 
     i18n: company_b_desc
   date:
-    detail: December 2015
+    detail: May 2018 - September 2018
     i18n: company_b_date
   job:
-    detail: MSc Mathematical Models in Engineering
+    # detail: 
     i18n: company_b_job
   icon: fa-calculator
 
 - name:
-    detail: Procter and Gamble
+    detail: Aristotle University of Thessaloniki, Greece
     i18n: company_b
   desc:
-    detail: Intern in charge of documenting all the operations of the warehouse, to review, update and generate standard operating procedures (SOPs) that ensure a standardized, cohesive, end-to-end description of all tasks within the warehouse.
+    detail: Engineer's Diploma (BSc and MSc combined studies) in Electrical and Computer Engineering, with a specialization in software engineering and machine learning (then called pattern recognition). Graduated among the top 10% of graduates. My thesis on accerelating genomics workflows using distributed computing environments, was graded with 10/10 and published at the 12th International Conference on Artificial Intelligence Applications and Innovations (AIAI 2016).
     i18n: company_b_desc
   date:
-    detail: September 2014
+    detail: September 2010 - July 2016
     i18n: company_b_date
   job:
-    detail: Supply Network Operations Intern
+    detail: Electrical and Computer Engineering student
     i18n: company_b_job
-  icon: fa-truck
+  icon: fa-calculator
 
 - name:
-    detail: Quad/Graphics
+    detail: Veltio
     i18n: company_b
   desc:
-    detail: Corporate Trainee program in Interactive Print Solutions (IPS). The IPS department aimed to add value to printed material by allowing mobile devices to interact with print through image recognition and augmented reality. The role was analogous to a project manager.
+    detail: I designed and implemented a monitoring and intervention capable system intended to facilitate remote control of the companies servers. This allowed developers to safely launch and kill test VMs without having to go through the system's administrator.  
+
     i18n: company_b_desc
   date:
-    detail: January 2012
+    detail: June 2016 - September 2016
     i18n: company_b_date
   job:
-    detail: Interactive Print Representative
+    detail: Software Engineering Intern
     i18n: company_b_job
   icon: fa-book
 
-- name:
-    detail: General Motors
-    i18n: company_b
-  desc:
-    detail: Supply Chain department analyst, responsible for the logistics of non-CKD parts of several models of automobiles in the production site of Bogota, Colombia.
-    i18n: company_b_desc
-  date:
-    detail: October 2011
-    i18n: company_b_date
-  job:
-    detail: Material Flow Engineer
-    i18n: company_b_job
-  icon: fa-car
-
-- name:
-    detail: Universtity of Andes, Bogota
-    i18n: company_b
-  desc:
-    detail: Double BSc degree in Industrial Engineering and Computer Engineering. Emphasis on operations research and software development.
-    i18n: company_b_desc
-  date:
-    detail: March 2011
-    i18n: company_b_date
-  job:
-    detail: BSc Industrial Engineer and BSc Computer Engineer
-    i18n: company_b_job
-  icon: fa-graduation-cap

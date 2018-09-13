@@ -1,20 +1,20 @@
 # Website settings
-title: diegoperez.science
-description: diegoperez.science is a place to learn about Diego Perez and Data Science.
-keywords: diegoperezscience, diegoperez science, diego perez science, diego, perez, diego perez, diego data science, diego perez data science
-url: https://diegoperezscience.github.io #url should be 'http://<github_username>.github.io/homepage' as before
+title: steremma
+description: steremma is a place to learn what Manos Stergiadis has been up to.
+keywords: steremma, stergiadis, manos stergiadis
+url: https://steremma.github.io #url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 #img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: diegoperezscience  # Be used at blog posts' author.
-  first_name: Diego # Be used at index page about me section.
-  last_name: Perez # Be used at index page about me section.
+  name: steremma  # Be used at blog posts' author.
+  first_name: Manos # Be used at index page about me section.
+  last_name: Stergiadis # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.png  # upload your avatar at directory and edit it.
-  github_username: diegoperezscience  # Leave blank if you don't have now
-  linkedin_id: diegoperezscience # Leave blank if you don't have now
-  email: diegoperezscience@gmail.com  # Leave blank if you don't have now
+  github_username: steremma  # Leave blank if you don't have now
+  linkedin_id: steremma # Leave blank if you don't have now
+  email: em.stergiadis@gmail.com  # Leave blank if you don't have now
   #cv: http://cv.jarrekk.com  # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -23,7 +23,8 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-microscope
-  desc: Scientist at the core, engineer by education and data scientist by occupation. I am an energetic data scientist with background in applied math, and industrial and computer engineering. My interest is applying mathematical tools to model industrial scenarios and generate useful solutions. I deeply enjoy working in multidisciplinary teams as pivotal point in the conversation between the mathematical theory and the needs of the productive industry. I am a well rounded scientist, ready to utilize my knowledge in research or production environments.
+  desc: Data Scientist by day, Software Engineer by night. An open-source enthusiast, who enjoys designing, implementing and deploying machine learning models in production systems. I love working
+in multidisciplinary teams and can contribute equally to a research or industrial environment. 
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -31,8 +32,8 @@ author:  # change following line to your infomation.
 
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: "UA-113288938-1"
+#ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id: "UA-113288938-1"
 
 ## google optimize
 #go:
