@@ -1,12 +1,12 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Udacity Machine Learning Engineer
+- name: A scalable Grid Computing framework for extensible phylogenetic profile construction
   i18n: name
-  gh_user: diegoperezscience
-  repo: Udacity_ML_Eng
-  img: /static/assets/img/landing/UMLEng.png
-  desc: Implementation of the projects for the Machine Learning Engineer Nanodegree at Udacity. These cover interesting projects in supervised, unsupervised, reinforcement and deep learning,  
+  repo: GridCG
+  url: https://www.researchgate.net/publication/307585591_A_Scalable_Grid_Computing_Framework_for_Extensible_Phylogenetic_Profile_Construction
+  img: /static/assets/img/landing/springerLink.png
+  desc: Designed and implemented a distributed framework that can exploit Grid infrastructure resources (EGI) to scale-up common genomics workflows. Achieved a 30x speed-up compared to serial implementations.
 
 - name: Sentiment Analysis in Colombian Online Newspaper Comments 
   i18n: name
@@ -14,7 +14,7 @@
   img: /static/assets/img/landing/springerLink.png
   desc: Published by SpringerLink, this paper presents the development and the results of NOA, a web application intended to detect opinion tendencies, using sentiment analysis and NoSQL technology.
 
-- name: Xomnia Datathon: Create a Safety Monitor
+- name: Create a Safety Monitor, Xomnia Datathon
   i18n: name
   url: https://youtu.be/ctxGy2k-wt4?list=PLkCF4jlemucm9t8CVbMfk4BkV5t4KkH9i
   img: /static/assets/img/landing/google.png
