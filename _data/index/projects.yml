@@ -2,29 +2,39 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: GPU accerelated Convolutional Neural Networks 
-  i18n: name
-  url: https://gist.github.com/steremma/048549de16cc48610233c943ecf495b4
-  img: /static/assets/img/landing/google.png
-  desc: Designed and implemented a fully functional Convolutional Neural Network library in CUDA currently integrated in ROOT, the data processing framework written by and used at CERN. The library allows the timely processing of particle physics experimental data. My implementation consistently outperforms the previous CPU version by a factor of 3, as its performance and memory footprint is comparable to those of Keras.
 
-
-- name: A scalable Grid Computing framework for extensible phylogenetic profile construction
-  i18n: name
-  url: https://www.researchgate.net/publication/307585591_A_Scalable_Grid_Computing_Framework_for_Extensible_Phylogenetic_Profile_Construction
-  img: /static/assets/img/landing/springerLink.png
-  desc: Published in the 12th International Conference on Artificial Intelligence Applications and Innovations (AIAI 2016), this paper presents my design and implementation of a distributed computing framework that can exploit Grid infrastructure resources (EGI) to scale-up common genomics workflows. My Java implementation achieved a 30x speed-up compared to serial implementations.
-  
 - name: Natural Language Processing
   i18n: name
-  gh_user: steremma
+  gh_user: RaRe-Technologies
   repo: gensim
   img: /static/assets/img/landing/gensim.png
-  desc: I have contributed to one of the most popular Python open source packages in Topic Modeling called Gensim. My work includes adding features that made it into a subsequent release, fixing bugs, and improving the documentation of complex model implementations.
+  desc: I have contributed to one of the most popular Python open source packages in Topic Modeling called <a href="https://radimrehurek.com/gensim/">Gensim</a>. My work included features that made it into a subsequent release, fixing bugs, and improving the documentation of complex model implementations. Here is <a href="">my fork</a>
+
+
+- name: Machine Learning & Collaboration
+  i18n: name
+  gh_user: MLblog
+  repo: jads_kaggle
+  img: /static/assets/img/landing/kaggle.png
+  desc: I initiated and contributed to a team of colleagues participating in multiple machine learning competitions. I mentored team members in modern software engineering practices including object oriented programming and version control, by delivering on-site workshops, writing comprehensive guides and conducting code reviews. 
+
+- name: Functional Programming in Scala Specialization 
+  i18n: name
+  url: https://www.coursera.org/account/accomplishments/specialization/BWLQC563PW4R
+  img: /static/assets/img/landing/coursera.png
+  desc: Succesfully completed a series of four courses, as well as a capstone project in order to learn Scala and Spark, as well as the Functional Programming Paradigm. My capstone project was an application able to process and visualize large-scale temperature datasets. The source code is not published in accordance to <a href="https://learner.coursera.help/hc/en-us/articles/209818863-Coursera-Honor-Code">coursera's honor code</a>.
+
 
 - name: Robotics Simulation
   i18n: name
-  gh_user: steremma
+  gh_user: stdr-simulator-ros-pkg
   repo: stdr_simulator
   img: /static/assets/img/landing/stdr.png
-  desc: Integrated a new GUI into a robotics application written in C++ and implemented several design and performance optimizations. The project is currently distributed as an official ROS package.
+  desc: Integrated a new GUI into a robotics application written in C++. I also implemented several design and performance optimizations, one of which prevented a <a href="https://github.com/stdr-simulator-ros-pkg/stdr_simulator/pull/186">potential memory leak</a>. The project is currently distributed as an official ROS package.
+
+- name: Digit Recognition
+  i18n: name
+  gh_user: steremma
+  repo: digitRecognition
+  img: /static/assets/img/landing/mnist.png
+  desc: As a BSc. student, I designed and implemented a neural network able to label hand-written digits along with a friend. The application was developed in vanilla C++ and parallelized in CUDA in 2013, when deep learning frameworks were not as popular as they are today (most of them did not even exist).

@@ -15,7 +15,7 @@ author:  # change following line to your infomation.
   github_username: steremma  # Leave blank if you don't have now
   linkedin_id: steremma # Leave blank if you don't have now
   email: em.stergiadis@gmail.com  # Leave blank if you don't have now
-  #cv: http://cv.jarrekk.com  # A online CV can be printed as PDF, leave blank if you don't have now
+  cv: # A online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-python
