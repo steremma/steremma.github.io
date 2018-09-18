@@ -4,7 +4,6 @@ title:  "Convolutional Neural Networks - Implementation and Testing"
 date:   2018-06-26
 desc: "Convolutional Neural Networks - Implementation and Testing"
 keywords: "cnn,cuda,c++,deep-learning,neural-network"
-categories: [HTML]
 tags: [CUDA, Convolutional Neural Network]
 icon: icon-html
 ---
@@ -30,6 +29,7 @@ I had to tackle all of those errors (yes even the 4th one!) while developing eac
 ![](/static/assets/blog/waterfall.jpeg)
 *Jane following the waterfall model*
 
+
 ## Enter Agile
 In order to protect my sanity, I decided to divide the library into parts, each of which is manageable in isolation. A rather logical division strategy, is to assign a "one-man sprint" per layer type:
 * The Pooling layer. This one spatially downsamples the input feature maps.
@@ -42,6 +42,7 @@ Splitting the end product into the aforementioned pieces affects the following f
 * Resource allocation. With the exception of the Convolutional Layer which is substantially more complex, every sub-problem was initially assigned a week of work. This time allocation helps us a lot in planning, and is regularly revisited to address unpredicted challenges.
 * Testing. Testing each layer in isolation is significantly easier than testing the network as a whole. The rest of this article elaborates on this point.
 * Review. Each sprint concludes with a submission of a well defined Pull Request corresponding to a single layer type. Those are further split into self-contained commits with explanatory messages to further assist reviewers in judging and reasoning about the code's quality.
+
 
 ## Unit Testing
 In our context, unit testing refers to numerically asserting the expected behavior of each function. Fortunately, each layer type only contains two testing-worthy functions: Forward and backward propagation. Let's make that clear with a concrete example: How would one test the forward-propagation of a max-pooling layer? We start by defining the expected behavior.
@@ -59,11 +60,13 @@ We can then test directly: `assert expected == pooling.forwardPropagation(input)
 Of course our library ought to support every valid configuration, therefore these should also be covered by our testing suite. In a realistic scenario we would expect the input to span multiple feature maps, the stride to be higher than 1 and maybe not even symmetrical between the vertical and horizontal dimensions. The padding could be adapted to control the output size. The fact that the first simple test passed does **not** guarantee correctness in the general case!
 The same process is then followed for both the forward and back propagation of all supported layer types.
 
+
 ## Integration Testing
 We have now written all the required unit tests: each individual piece of work is working as expected. We can now sleep lightly.
 **Wrong!**
 If there is one thing I remember after 6 years in electrical engineering, it is the fact that a system is more than the sum of its counterparts. Besides the 32 bit OP code for addition on a MIPS micro-controller of course - apparently thats important knowledge for an electrical engineer. Aaanyway...
 What this means is that asserting correctness of each individual layer type in isolation, does not guarantee that the network as a whole will be able to learn. We need to test how these pieces operate when orchestrated. Are the gradients correctly computed? Is the loss actually minimized?
+
 
 ### Integration Testing Approach 1
 My first thought was to follow the same strategy at the integration stage as well, since it served me perfectly during unit testing. The process would look like this:
@@ -76,6 +79,7 @@ The last step would entail performing back-propagation on paper, by computing th
 *Forward propagation on paper, pages 2 of 1*
 
 I was actually stubborn enough to perform step 2. It took me three days and I made more than five arithmetic errors on the paper solution. I removed "attention to detail" from my CV header and decided to move on with my life.
+
 
 ### Gradient Checking
 I was fortunate enough to observe a brilliant existing implementation written some years ago by Simon Pfreundschuh and adapted to convolutional networks by Vladimir Ilievsky, of a technique called Gradient Checking. The idea is pretty simple, one only needs to remember that all we need back-propagation for, is to compute the gradient of the loss with respect to each individual learnable parameter in the network. The fact that most implementations (including ours) also compute the gradients with respect to each layer's activation is irrelevant: These are only an intermediate result needed to propagate the error to a previous layer. We are not interested in them directly.
@@ -94,11 +98,13 @@ Here is a diagram of the proposed process:
 
 We start by arbitrarily setting the orange stuff: an input image and the weights **W** for every layer. We then perform forward propagation and get the total loss **L**. We also change the weights by a tiiiiny tiny bit (that's how I call **dW**), perform forward propagation using the same image, and get the new loss **L'**. The ratio of the change in the loss, divided by the change in each weight, is this particular weight's derivative! All we then have to do, is perform backward propagation using the initial loss **L**, and get the computed weight gradients. If both those methods of computing the gradients yield the same result, we can be confident that our network works (assuming that forward propagation is correct).
 
+
 ## Results and Future Work
 I was delighted to discover that after minor tweaking, my CUDA implementation passed the aforementioned tests. I am now pretty confident on its correctness and feel ready to start tuning for performance. My short term goal is to at least outperform the CPU version (should be easy in theory). I will also try to benchmark the implementation against popular packages such as Tensorflow. It would be great if ROOT could beat some or all of them at least in the context of particle physics experiments, but it is too early to reason about the implementation's potential.
 
+
 ## Update August 26
 
-** The library not only outperforms the previous CPU implementation by a factor of 3, but also yields results comparable to industry standards such as Keras. For details, check my [final report for GSoC](https://gist.github.com/steremma/048549de16cc48610233c943ecf495b4) **
+**The library not only outperforms the previous CPU implementation by a factor of 3, but also yields results comparable to industry standards such as Keras. For details, check my [final report for GSoC](https://gist.github.com/steremma/048549de16cc48610233c943ecf495b4)**
 
 
